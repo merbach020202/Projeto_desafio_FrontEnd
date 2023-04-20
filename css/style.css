@@ -1,0 +1,164 @@
+@font-face {
+    font-family: Titilium-Black;
+    src: url(../assets/Fonts/TitiliumWeb/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: Titilium-Bold;
+    src: url(../assets/Fonts/TitiliumWeb/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../assets/Fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../assets/Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffffff;
+}
+
+.container-grid {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/************** HEADER *************/
+header {
+    height: 700px;
+    background-image: linear-gradient(to right, rgba(116, 11, 93, 0.7), rgba(88, 4, 223, 0.9));
+}
+
+header .header-top .container-grid header-flex {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: 250px;
+
+    width: 1000px;
+    height: 100px;
+}
+
+header .header-top h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Titilium-Bold;
+    font-size: 40px;
+}
+
+header .header-top a {
+    font-family: Inter;
+    text-decoration: none;
+    color: white;
+
+    margin-left: 20px;
+}
+
+header .header-top a:hover{
+    color: yellow;
+    transition: 1s;
+}
+
+header .header-top a:first-of-type {
+    margin-left: 50px;
+}
+
+header .header-top .barra-pesquisa {
+    width: 350px;
+    height: 30px;
+
+    background-color: white;
+
+    margin-left: 25px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .header-top .barra-pesquisa>p {
+    font-family: Inter;
+    font-size: 10px;
+
+    margin-left: 10px;
+
+    color: grey;
+}
+
+header .header-top .icones-header{
+    width: 140px;
+    
+    margin-left: 40px;
+}
+
+header .header-top .icones-header img {
+    width: 30px;
+    height: 30px;
+
+    margin-left: 10px;
+}
+/************** HEADER BOTTOM **************/
+
+header .header-bottom img{
+    width: 800px;
+
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+header .header-bottom .textos{
+    margin-left: 900px;
+    margin-top: -300px;
+
+    width: 300px;
+    height: 200px;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+header .header-bottom .textos p{
+    font-family: Inter;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+header .header-bottom .textos h2{
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+header .header-bottom .textos button{
+    width: 120px;
+    height: 30px;
+
+    border-radius: 20px;
+    border: none;
+
+    background-color: rgb(241, 186, 7);
+}
+
+header .header-bottom .textos button p{
+    text-transform: none;
+    font-size: 8px;
+
+    color: white;
+}
+
